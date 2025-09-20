@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/amino"
-	pb "github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/pb"
-	"github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/provider/keystore"
+	"github.com/nnlgsakib/kad-dht-wwfs/amino"
+	pb "github.com/nnlgsakib/kad-dht-wwfs/pb"
+	"github.com/nnlgsakib/kad-dht-wwfs/provider/keystore"
 	"github.com/libp2p/go-libp2p/core/peer"
 	ma "github.com/multiformats/go-multiaddr"
 	mh "github.com/multiformats/go-multihash"

@@ -9,7 +9,7 @@ import (
 	"github.com/probe-lab/go-libdht/kad/key/bitstr"
 	"github.com/probe-lab/go-libdht/kad/trie"
 
-	"github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/provider/internal/keyspace"
+	"github.com/nnlgsakib/kad-dht-wwfs/provider/internal/keyspace"
 )
 
 // ProvideQueue is a thread-safe queue storing multihashes about to be provided

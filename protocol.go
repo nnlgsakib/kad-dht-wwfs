@@ -1,7 +1,7 @@
 package dht
 
 import (
-	"github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/amino"
+	"github.com/nnlgsakib/kad-dht-wwfs/amino"
 	"github.com/libp2p/go-libp2p/core/protocol"
 )
 

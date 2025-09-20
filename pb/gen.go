@@ -12,11 +12,11 @@
 //   - https://protobuf.dev/reference/go/faq#namespace-conflict
 //   - https://github.com/golang/protobuf/issues/1122#issuecomment-2045945265
 //
-//go:generate mkdir -p github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/pb
+//go:generate mkdir -p github.com/nnlgsakib/kad-dht-wwfs/pb
 //go:generate git -c advice.detachedHead=false clone --depth 1 --branch release-v0.3.1 https://github.com/libp2p/go-libp2p-record.git github.com/libp2p/go-libp2p-record
-//go:generate ln -f dht.proto github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/pb/
-//go:generate protoc --go_opt=Mgithub.com/libp2p/go-libp2p-record/pb/record.proto=github.com/libp2p/go-libp2p-record/pb --go_out=. github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/pb/dht.proto
-//go:generate mv -f github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/pb/dht.pb.go .
+//go:generate ln -f dht.proto github.com/nnlgsakib/kad-dht-wwfs/pb/
+//go:generate protoc --go_opt=Mgithub.com/libp2p/go-libp2p-record/pb/record.proto=github.com/libp2p/go-libp2p-record/pb --go_out=. github.com/nnlgsakib/kad-dht-wwfs/pb/dht.proto
+//go:generate mv -f github.com/nnlgsakib/kad-dht-wwfs/pb/dht.pb.go .
 //go:generate rm -rf github.com
 
 package dht_pb

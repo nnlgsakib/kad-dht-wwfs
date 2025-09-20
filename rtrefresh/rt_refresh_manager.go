@@ -8,7 +8,7 @@ import (
 	"time"
 
 	logging "github.com/ipfs/go-log/v2"
-	"github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/internal"
+	"github.com/nnlgsakib/kad-dht-wwfs/internal"
 	kbucket "github.com/libp2p/go-libp2p-kbucket"
 	"github.com/libp2p/go-libp2p/core/host"
 	"github.com/libp2p/go-libp2p/core/peer"

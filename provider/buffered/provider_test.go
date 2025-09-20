@@ -12,7 +12,7 @@ import (
 
 	"github.com/ipfs/go-datastore"
 	"github.com/ipfs/go-test/random"
-	"github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/provider/internal"
+	"github.com/nnlgsakib/kad-dht-wwfs/provider/internal"
 	mh "github.com/multiformats/go-multihash"
 )
 

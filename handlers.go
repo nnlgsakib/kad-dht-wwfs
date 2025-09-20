@@ -10,8 +10,8 @@ import (
 	pstore "github.com/libp2p/go-libp2p/p2p/host/peerstore"
 
 	ds "github.com/ipfs/go-datastore"
-	"github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/internal"
-	pb "github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/pb"
+	"github.com/nnlgsakib/kad-dht-wwfs/internal"
+	pb "github.com/nnlgsakib/kad-dht-wwfs/pb"
 	recpb "github.com/libp2p/go-libp2p-record/pb"
 	"github.com/multiformats/go-base32"
 	"google.golang.org/protobuf/proto"

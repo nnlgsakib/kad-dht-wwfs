@@ -6,9 +6,9 @@ import (
 	"time"
 
 	"github.com/ipfs/go-cid"
-	dht "github.com/nnlgsakib/go-libp2p-kad-dht-wwfs"
-	"github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/internal"
-	test "github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/internal/testing"
+	dht "github.com/nnlgsakib/kad-dht-wwfs"
+	"github.com/nnlgsakib/kad-dht-wwfs/internal"
+	test "github.com/nnlgsakib/kad-dht-wwfs/internal/testing"
 	kb "github.com/libp2p/go-libp2p-kbucket"
 	record "github.com/libp2p/go-libp2p-record"
 	"github.com/libp2p/go-libp2p/core/host"

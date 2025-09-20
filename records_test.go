@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/internal"
+	"github.com/nnlgsakib/kad-dht-wwfs/internal"
 	"github.com/libp2p/go-libp2p/core/test"
 
 	"github.com/ipfs/go-test/random"

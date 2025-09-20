@@ -35,11 +35,11 @@ import (
 	"github.com/probe-lab/go-libdht/kad/key/bitstr"
 	"github.com/probe-lab/go-libdht/kad/trie"
 
-	pb "github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/pb"
-	"github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/provider/internal/connectivity"
-	"github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/provider/internal/keyspace"
-	"github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/provider/internal/queue"
-	"github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/provider/keystore"
+	pb "github.com/nnlgsakib/kad-dht-wwfs/pb"
+	"github.com/nnlgsakib/kad-dht-wwfs/provider/internal/connectivity"
+	"github.com/nnlgsakib/kad-dht-wwfs/provider/internal/keyspace"
+	"github.com/nnlgsakib/kad-dht-wwfs/provider/internal/queue"
+	"github.com/nnlgsakib/kad-dht-wwfs/provider/keystore"
 	kb "github.com/libp2p/go-libp2p-kbucket"
 
 	"github.com/stretchr/testify/require"
@@ -359,7 +359,7 @@ func noopConnectivityChecker() *connectivity.ConnectivityChecker {
 }
 
 func provideCounter() metric.Int64Counter {
-	meter := otel.Meter("github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/provider")
+	meter := otel.Meter("github.com/nnlgsakib/kad-dht-wwfs/provider")
 	provideCounter, err := meter.Int64Counter(
 		"total_provide_count",
 		metric.WithDescription("Number of successful provides since node is running"),

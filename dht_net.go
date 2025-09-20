@@ -6,9 +6,9 @@ import (
 
 	"github.com/libp2p/go-libp2p/core/network"
 
-	"github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/internal/metrics"
-	"github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/internal/net"
-	pb "github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/pb"
+	"github.com/nnlgsakib/kad-dht-wwfs/internal/metrics"
+	"github.com/nnlgsakib/kad-dht-wwfs/internal/net"
+	pb "github.com/nnlgsakib/kad-dht-wwfs/pb"
 	"google.golang.org/protobuf/proto"
 
 	"github.com/libp2p/go-msgio"

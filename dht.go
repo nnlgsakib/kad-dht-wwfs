@@ -18,13 +18,13 @@ import (
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/internal"
-	dhtcfg "github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/internal/config"
-	"github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/internal/metrics"
-	"github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/netsize"
-	pb "github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/pb"
-	"github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/records"
-	"github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/rtrefresh"
+	"github.com/nnlgsakib/kad-dht-wwfs/internal"
+	dhtcfg "github.com/nnlgsakib/kad-dht-wwfs/internal/config"
+	"github.com/nnlgsakib/kad-dht-wwfs/internal/metrics"
+	"github.com/nnlgsakib/kad-dht-wwfs/netsize"
+	pb "github.com/nnlgsakib/kad-dht-wwfs/pb"
+	"github.com/nnlgsakib/kad-dht-wwfs/records"
+	"github.com/nnlgsakib/kad-dht-wwfs/rtrefresh"
 	kb "github.com/libp2p/go-libp2p-kbucket"
 	"github.com/libp2p/go-libp2p-kbucket/peerdiversity"
 	record "github.com/libp2p/go-libp2p-record"
@@ -509,7 +509,7 @@ func (dht *IpfsDHT) fixLowPeers() {
 	// TODO Active Bootstrapping
 	// We should first use non-bootstrap peers we knew of from previous
 	// snapshots of the Routing Table before we connect to the bootstrappers.
-	// See https://github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/issues/387.
+	// See https://github.com/nnlgsakib/kad-dht-wwfs/issues/387.
 	if dht.routingTable.Size() == 0 && dht.bootstrapPeers != nil {
 		bootstrapPeers := dht.bootstrapPeers()
 		if len(bootstrapPeers) == 0 {

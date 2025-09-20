@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"time"
 
-	kaddht "github.com/nnlgsakib/go-libp2p-kad-dht-wwfs"
-	"github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/crawler"
-	"github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/records"
+	kaddht "github.com/nnlgsakib/kad-dht-wwfs"
+	"github.com/nnlgsakib/kad-dht-wwfs/crawler"
+	"github.com/nnlgsakib/kad-dht-wwfs/records"
 )
 
 type config struct {

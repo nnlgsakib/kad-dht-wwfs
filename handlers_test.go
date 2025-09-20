@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/libp2p/go-libp2p"
-	pb "github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/pb"
+	pb "github.com/nnlgsakib/kad-dht-wwfs/pb"
 	recpb "github.com/libp2p/go-libp2p-record/pb"
 	crypto "github.com/libp2p/go-libp2p/core/crypto"
 	peer "github.com/libp2p/go-libp2p/core/peer"

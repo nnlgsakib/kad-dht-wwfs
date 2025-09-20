@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/libp2p/go-libp2p"
-	dht "github.com/nnlgsakib/go-libp2p-kad-dht-wwfs"
+	dht "github.com/nnlgsakib/kad-dht-wwfs"
 	kadkey "github.com/libp2p/go-libp2p-xor/key"
 	"github.com/libp2p/go-libp2p-xor/trie"
 	"github.com/libp2p/go-libp2p/core/crypto"

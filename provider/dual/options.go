@@ -6,11 +6,11 @@ import (
 	"time"
 
 	ds "github.com/ipfs/go-datastore"
-	"github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/amino"
-	"github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/dual"
-	pb "github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/pb"
-	"github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/provider"
-	"github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/provider/keystore"
+	"github.com/nnlgsakib/kad-dht-wwfs/amino"
+	"github.com/nnlgsakib/kad-dht-wwfs/dual"
+	pb "github.com/nnlgsakib/kad-dht-wwfs/pb"
+	"github.com/nnlgsakib/kad-dht-wwfs/provider"
+	"github.com/nnlgsakib/kad-dht-wwfs/provider/keystore"
 )
 
 const (

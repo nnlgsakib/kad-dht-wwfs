@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/netsize"
+	"github.com/nnlgsakib/kad-dht-wwfs/netsize"
 	"github.com/libp2p/go-libp2p/core/peer"
 )
 

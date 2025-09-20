@@ -8,9 +8,9 @@ import (
 	"sync"
 
 	"github.com/ipfs/go-cid"
-	dht "github.com/nnlgsakib/go-libp2p-kad-dht-wwfs"
-	"github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/amino"
-	"github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/internal"
+	dht "github.com/nnlgsakib/kad-dht-wwfs"
+	"github.com/nnlgsakib/kad-dht-wwfs/amino"
+	"github.com/nnlgsakib/kad-dht-wwfs/internal"
 	kb "github.com/libp2p/go-libp2p-kbucket"
 	"github.com/libp2p/go-libp2p-kbucket/peerdiversity"
 	helper "github.com/libp2p/go-libp2p-routing-helpers"

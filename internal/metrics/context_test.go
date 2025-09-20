@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/internal/metrics"
+	"github.com/nnlgsakib/kad-dht-wwfs/internal/metrics"
 	"github.com/stretchr/testify/assert"
 	"go.opentelemetry.io/otel/attribute"
 )

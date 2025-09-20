@@ -8,9 +8,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/internal/metrics"
-	"github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/netsize"
-	"github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/qpeerset"
+	"github.com/nnlgsakib/kad-dht-wwfs/internal/metrics"
+	"github.com/nnlgsakib/kad-dht-wwfs/netsize"
+	"github.com/nnlgsakib/kad-dht-wwfs/qpeerset"
 	kb "github.com/libp2p/go-libp2p-kbucket"
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/multiformats/go-multihash"

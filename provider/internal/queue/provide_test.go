@@ -10,7 +10,7 @@ import (
 	"github.com/probe-lab/go-libdht/kad/trie"
 	"github.com/stretchr/testify/require"
 
-	"github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/provider/internal/keyspace"
+	"github.com/nnlgsakib/kad-dht-wwfs/provider/internal/keyspace"
 )
 
 func genMultihashesMatchingPrefix(prefix bitstr.Key, n int) []mh.Multihash {

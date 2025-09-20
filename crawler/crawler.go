@@ -14,7 +14,7 @@ import (
 	logging "github.com/ipfs/go-log/v2"
 	"github.com/libp2p/go-msgio/pbio"
 
-	pb "github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/pb"
+	pb "github.com/nnlgsakib/kad-dht-wwfs/pb"
 	kbucket "github.com/libp2p/go-libp2p-kbucket"
 )
 

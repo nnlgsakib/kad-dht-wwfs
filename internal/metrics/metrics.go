@@ -3,7 +3,7 @@ package metrics
 import (
 	"context"
 
-	pb "github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/pb"
+	pb "github.com/nnlgsakib/kad-dht-wwfs/pb"
 
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/attribute"
@@ -40,7 +40,7 @@ func UpsertMessageType(m *pb.Message) attribute.KeyValue {
 }
 
 var (
-	meter = otel.Meter("github.com/nnlgsakib/go-libp2p-kad-dht-wwfs")
+	meter = otel.Meter("github.com/nnlgsakib/kad-dht-wwfs")
 
 	// dht net metrics
 	receivedMessages, _ = meter.Int64Counter(

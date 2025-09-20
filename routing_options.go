@@ -1,7 +1,7 @@
 package dht
 
 import (
-	internalConfig "github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/internal/config"
+	internalConfig "github.com/nnlgsakib/kad-dht-wwfs/internal/config"
 	"github.com/libp2p/go-libp2p/core/routing"
 )
 

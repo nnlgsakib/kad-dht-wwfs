@@ -16,7 +16,7 @@ import (
 	ma "github.com/multiformats/go-multiaddr"
 	manet "github.com/multiformats/go-multiaddr/net"
 
-	dhtcfg "github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/internal/config"
+	dhtcfg "github.com/nnlgsakib/kad-dht-wwfs/internal/config"
 )
 
 // QueryFilterFunc is a filter applied when considering peers to dial when querying

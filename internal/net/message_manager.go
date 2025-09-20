@@ -18,9 +18,9 @@ import (
 	"github.com/libp2p/go-msgio/pbio"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/internal"
-	"github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/internal/metrics"
-	pb "github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/pb"
+	"github.com/nnlgsakib/kad-dht-wwfs/internal"
+	"github.com/nnlgsakib/kad-dht-wwfs/internal/metrics"
+	pb "github.com/nnlgsakib/kad-dht-wwfs/pb"
 )
 
 var dhtReadMessageTimeout = 10 * time.Second

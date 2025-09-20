@@ -6,11 +6,11 @@ import (
 	"fmt"
 
 	"github.com/ipfs/go-cid"
-	dht "github.com/nnlgsakib/go-libp2p-kad-dht-wwfs"
-	"github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/dual"
-	"github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/provider"
-	"github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/provider/internal"
-	"github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/provider/keystore"
+	dht "github.com/nnlgsakib/kad-dht-wwfs"
+	"github.com/nnlgsakib/kad-dht-wwfs/dual"
+	"github.com/nnlgsakib/kad-dht-wwfs/provider"
+	"github.com/nnlgsakib/kad-dht-wwfs/provider/internal"
+	"github.com/nnlgsakib/kad-dht-wwfs/provider/keystore"
 	mh "github.com/multiformats/go-multihash"
 )
 

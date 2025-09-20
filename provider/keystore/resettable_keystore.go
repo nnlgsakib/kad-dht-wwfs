@@ -7,7 +7,7 @@ import (
 	"github.com/ipfs/go-cid"
 	ds "github.com/ipfs/go-datastore"
 	"github.com/ipfs/go-datastore/namespace"
-	"github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/provider/internal/keyspace"
+	"github.com/nnlgsakib/kad-dht-wwfs/provider/internal/keyspace"
 	mh "github.com/multiformats/go-multihash"
 )
 

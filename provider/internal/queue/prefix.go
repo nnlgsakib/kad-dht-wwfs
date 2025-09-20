@@ -4,7 +4,7 @@ import (
 	"slices"
 
 	"github.com/gammazero/deque"
-	"github.com/nnlgsakib/go-libp2p-kad-dht-wwfs/provider/internal/keyspace"
+	"github.com/nnlgsakib/kad-dht-wwfs/provider/internal/keyspace"
 	"github.com/probe-lab/go-libdht/kad/key/bit256"
 	"github.com/probe-lab/go-libdht/kad/key/bitstr"
 	"github.com/probe-lab/go-libdht/kad/trie"
