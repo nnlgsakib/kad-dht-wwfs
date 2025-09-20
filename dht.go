@@ -18,6 +18,8 @@ import (
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/trace"
 
+	kb "github.com/libp2p/go-libp2p-kbucket"
+	"github.com/libp2p/go-libp2p-kbucket/peerdiversity"
 	"github.com/nnlgsakib/kad-dht-wwfs/internal"
 	dhtcfg "github.com/nnlgsakib/kad-dht-wwfs/internal/config"
 	"github.com/nnlgsakib/kad-dht-wwfs/internal/metrics"
@@ -25,10 +27,8 @@ import (
 	pb "github.com/nnlgsakib/kad-dht-wwfs/pb"
 	"github.com/nnlgsakib/kad-dht-wwfs/records"
 	"github.com/nnlgsakib/kad-dht-wwfs/rtrefresh"
-	kb "github.com/libp2p/go-libp2p-kbucket"
-	"github.com/libp2p/go-libp2p-kbucket/peerdiversity"
-	record "github.com/libp2p/go-libp2p-record"
-	recpb "github.com/libp2p/go-libp2p-record/pb"
+	record "github.com/nnlgsakib/record-wwfs"
+	recpb "github.com/nnlgsakib/record-wwfs/pb"
 
 	ds "github.com/ipfs/go-datastore"
 	logging "github.com/ipfs/go-log/v2"

@@ -16,7 +16,6 @@ require (
 	github.com/ipfs/go-test v0.2.3
 	github.com/libp2p/go-libp2p v0.43.0
 	github.com/libp2p/go-libp2p-kbucket v0.8.0
-	github.com/libp2p/go-libp2p-record v0.3.1
 	github.com/libp2p/go-libp2p-routing-helpers v0.7.5
 	github.com/libp2p/go-libp2p-testing v0.12.0
 	github.com/libp2p/go-libp2p-xor v0.1.0
@@ -27,6 +26,7 @@ require (
 	github.com/multiformats/go-multibase v0.2.0
 	github.com/multiformats/go-multihash v0.2.3
 	github.com/multiformats/go-multistream v0.6.1
+	github.com/nnlgsakib/record-wwfs v1.0.1
 	github.com/nnlgsakib/wwfs-sdk v1.0.0
 	github.com/probe-lab/go-libdht v0.2.1
 	github.com/stretchr/testify v1.11.1
@@ -68,6 +68,7 @@ require (
 	github.com/libp2p/go-cidranger v1.1.0 // indirect
 	github.com/libp2p/go-flow-metrics v0.3.0 // indirect
 	github.com/libp2p/go-libp2p-asn-util v0.4.1 // indirect
+	github.com/libp2p/go-libp2p-record v0.3.1 // indirect
 	github.com/libp2p/go-reuseport v0.4.0 // indirect
 	github.com/libp2p/go-yamux/v5 v5.0.1 // indirect
 	github.com/marten-seemann/tcp v0.0.0-20210406111302-dfbc87cc63fd // indirect

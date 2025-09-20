@@ -6,20 +6,20 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/nnlgsakib/wwfs-sdk/ipns"
 	ds "github.com/ipfs/go-datastore"
 	dssync "github.com/ipfs/go-datastore/sync"
-	"github.com/nnlgsakib/kad-dht-wwfs/amino"
-	"github.com/nnlgsakib/kad-dht-wwfs/internal/net"
-	pb "github.com/nnlgsakib/kad-dht-wwfs/pb"
-	"github.com/nnlgsakib/kad-dht-wwfs/records"
 	"github.com/libp2p/go-libp2p-kbucket/peerdiversity"
-	record "github.com/libp2p/go-libp2p-record"
 	"github.com/libp2p/go-libp2p/core/host"
 	"github.com/libp2p/go-libp2p/core/network"
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/libp2p/go-libp2p/core/protocol"
 	ma "github.com/multiformats/go-multiaddr"
+	"github.com/nnlgsakib/kad-dht-wwfs/amino"
+	"github.com/nnlgsakib/kad-dht-wwfs/internal/net"
+	pb "github.com/nnlgsakib/kad-dht-wwfs/pb"
+	"github.com/nnlgsakib/kad-dht-wwfs/records"
+	record "github.com/nnlgsakib/record-wwfs"
+	"github.com/nnlgsakib/wwfs-sdk/ipns"
 )
 
 // DefaultPrefix is the application specific prefix attached to all DHT protocols by default.

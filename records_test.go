@@ -6,15 +6,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nnlgsakib/kad-dht-wwfs/internal"
 	"github.com/libp2p/go-libp2p/core/test"
+	"github.com/nnlgsakib/kad-dht-wwfs/internal"
 
 	"github.com/ipfs/go-test/random"
-	record "github.com/libp2p/go-libp2p-record"
 	tnet "github.com/libp2p/go-libp2p-testing/net"
 	ci "github.com/libp2p/go-libp2p/core/crypto"
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/libp2p/go-libp2p/core/routing"
+	record "github.com/nnlgsakib/record-wwfs"
 )
 
 // Check that GetPublicKey() correctly retrieves a public key from the peerstore

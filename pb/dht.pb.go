@@ -7,7 +7,7 @@
 package dht_pb
 
 import (
-	pb "github.com/libp2p/go-libp2p-record/pb"
+	pb "github.com/nnlgsakib/record-wwfs/pb"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

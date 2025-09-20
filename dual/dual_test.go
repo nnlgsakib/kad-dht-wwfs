@@ -6,17 +6,17 @@ import (
 	"time"
 
 	"github.com/ipfs/go-cid"
-	dht "github.com/nnlgsakib/kad-dht-wwfs"
-	"github.com/nnlgsakib/kad-dht-wwfs/internal"
-	test "github.com/nnlgsakib/kad-dht-wwfs/internal/testing"
 	kb "github.com/libp2p/go-libp2p-kbucket"
-	record "github.com/libp2p/go-libp2p-record"
 	"github.com/libp2p/go-libp2p/core/host"
 	"github.com/libp2p/go-libp2p/core/peer"
 	peerstore "github.com/libp2p/go-libp2p/core/peerstore"
 	bhost "github.com/libp2p/go-libp2p/p2p/host/basic"
 	swarmt "github.com/libp2p/go-libp2p/p2p/net/swarm/testing"
 	"github.com/multiformats/go-multiaddr"
+	dht "github.com/nnlgsakib/kad-dht-wwfs"
+	"github.com/nnlgsakib/kad-dht-wwfs/internal"
+	test "github.com/nnlgsakib/kad-dht-wwfs/internal/testing"
+	record "github.com/nnlgsakib/record-wwfs"
 	"github.com/stretchr/testify/require"
 )
 

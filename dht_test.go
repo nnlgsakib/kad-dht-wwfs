@@ -14,9 +14,6 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nnlgsakib/kad-dht-wwfs/internal"
-	"github.com/nnlgsakib/kad-dht-wwfs/internal/net"
-	"github.com/nnlgsakib/kad-dht-wwfs/records"
 	"github.com/libp2p/go-libp2p/core/crypto"
 	"github.com/libp2p/go-libp2p/core/event"
 	"github.com/libp2p/go-libp2p/core/network"
@@ -29,6 +26,9 @@ import (
 	manet "github.com/multiformats/go-multiaddr/net"
 	"github.com/multiformats/go-multihash"
 	"github.com/multiformats/go-multistream"
+	"github.com/nnlgsakib/kad-dht-wwfs/internal"
+	"github.com/nnlgsakib/kad-dht-wwfs/internal/net"
+	"github.com/nnlgsakib/kad-dht-wwfs/records"
 	"google.golang.org/protobuf/proto"
 
 	"github.com/stretchr/testify/assert"
@@ -40,9 +40,9 @@ import (
 	"github.com/ipfs/go-cid"
 	detectrace "github.com/ipfs/go-detect-race"
 	kb "github.com/libp2p/go-libp2p-kbucket"
-	record "github.com/libp2p/go-libp2p-record"
 	bhost "github.com/libp2p/go-libp2p/p2p/host/basic"
 	swarmt "github.com/libp2p/go-libp2p/p2p/net/swarm/testing"
+	record "github.com/nnlgsakib/record-wwfs"
 )
 
 var testCaseCids []cid.Cid

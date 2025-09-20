@@ -34,6 +34,7 @@ import (
 	logging "github.com/ipfs/go-log/v2"
 	"google.golang.org/protobuf/proto"
 
+	kb "github.com/libp2p/go-libp2p-kbucket"
 	kaddht "github.com/nnlgsakib/kad-dht-wwfs"
 	"github.com/nnlgsakib/kad-dht-wwfs/amino"
 	"github.com/nnlgsakib/kad-dht-wwfs/crawler"
@@ -42,10 +43,9 @@ import (
 	"github.com/nnlgsakib/kad-dht-wwfs/internal/net"
 	dht_pb "github.com/nnlgsakib/kad-dht-wwfs/pb"
 	"github.com/nnlgsakib/kad-dht-wwfs/records"
-	kb "github.com/libp2p/go-libp2p-kbucket"
 
-	record "github.com/libp2p/go-libp2p-record"
-	recpb "github.com/libp2p/go-libp2p-record/pb"
+	record "github.com/nnlgsakib/record-wwfs"
+	recpb "github.com/nnlgsakib/record-wwfs/pb"
 
 	"github.com/libp2p/go-libp2p-xor/kademlia"
 	kadkey "github.com/libp2p/go-libp2p-xor/key"
