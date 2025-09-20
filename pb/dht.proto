@@ -1,5 +1,5 @@
 syntax = "proto3";
-package dht.pb;
+package wwfs.dht.pb;
 
 option go_package = "github.com/nnlgsakib/kad-dht-wwfs/pb;dht_pb";
 
