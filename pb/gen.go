@@ -13,7 +13,7 @@
 //   - https://github.com/golang/protobuf/issues/1122#issuecomment-2045945265
 //
 //go:generate mkdir -p github.com/nnlgsakib/kad-dht-wwfs/pb
-//go:generate git -c advice.detachedHead=false clone --depth 1 --branch release-v0.3.1 https://github.com/libp2p/go-libp2p-record.git github.com/libp2p/go-libp2p-record
+//go:generate git clone --branch v0.3.1 https://github.com/libp2p/go-libp2p-record
 //go:generate ln -f dht.proto github.com/nnlgsakib/kad-dht-wwfs/pb/
 //go:generate protoc --go_opt=Mgithub.com/libp2p/go-libp2p-record/pb/record.proto=github.com/libp2p/go-libp2p-record/pb --go_out=. github.com/nnlgsakib/kad-dht-wwfs/pb/dht.proto
 //go:generate mv -f github.com/nnlgsakib/kad-dht-wwfs/pb/dht.pb.go .

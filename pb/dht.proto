@@ -1,9 +1,9 @@
 syntax = "proto3";
 package dht.pb;
 
-option go_package = "github.com/libp2p/go-libp2p-kad-dht/pb;dht_pb";
+option go_package = "github.com/nnlgsakib/kad-dht-wwfs/pb;dht_pb";
 
-import "github.com/libp2p/go-libp2p-record/pb/record.proto";
+import "record.proto";
 
 message Message {
   enum MessageType {
